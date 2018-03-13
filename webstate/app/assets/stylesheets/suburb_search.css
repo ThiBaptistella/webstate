@@ -1,0 +1,70 @@
+#searchingDiv{
+	float: left;
+}
+#divImage{
+	background:url(../images/perth.jpg);
+	background-size: contain;
+	float: left;
+	width: 512px;
+	height: 384px;
+}
+#wait{
+	background-color: navy;
+	width: 512px;
+	height: 373px;
+	float: left;
+	align-content: center;
+	display:block;
+}
+
+#loading{
+	background-color: navy;
+	opacity: 0.6;
+	width: 100%;
+	height: 100%;
+	display:block;
+}
+
+#wait h3{
+	margin-left: 45%;
+	margin-top: 25%;
+}
+#wait img{
+	margin-left: 45%;
+}
+
+#suburbList
+{
+	width: 100%;
+	min-width: 600px;
+	height: 100%;
+	float: left;
+
+}
+
+#suburbList article
+{
+	width: 100%;
+	height: 100%;
+	float: left;
+	border-bottom: 1px solid orange;
+}
+
+#suburbList article div
+{
+	
+	width: 70%;
+	height: 100%;
+	float: left;
+}
+
+#suburbList article div + div{
+	margin: 1%;
+  	padding: 1%;
+  width: 30%;
+  background-size: 100% 100%;
+}
+
+#loading{
+	display:block;
+}

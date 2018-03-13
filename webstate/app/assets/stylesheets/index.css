@@ -1,0 +1,55 @@
+
+#top{
+	margin-top: 10%;
+	float: left;
+}
+#top article{
+	margin:1%;
+	width: 31%;
+
+	float: left;
+}
+#top article > div{
+	width: 100%;
+	margin-left: 45%;
+	float: left;
+}
+#top article > h2{
+	width: 100%;
+  	text-align: center;
+	float: left;
+}
+#top article p{
+	width: 100%;
+	float: left;
+}
+
+#top article > a{
+	width: 100%;
+	text-align: center;
+	float: left;
+}
+#news{
+	margin-top: 10%;
+	width: 100%;
+	height: 100%;
+	float: left;
+}
+#news article{
+
+	width: 60%;
+	float: left;
+}
+#news article + article{
+
+	width: 40%;
+	float: left;
+}
+#news article + article div{
+	margin: 5%;
+	padding: 5%;
+	width: 295px;
+  	height: 136px;
+  	background:url(../images/logo2.png);
+  	background-size: 100% 100%;
+}

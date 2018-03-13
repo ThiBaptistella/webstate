@@ -1,0 +1,13 @@
+<% if @users.blank? %>
+<p>Not Users are at the moment, sorry</p>
+<% else %>
+<p>List of users</p>
+<ul id= "users">
+	<% @users.each do |c| %>
+		<li> 
+			<%= link_to c.UserName, {:action => 'show', :id => c.id } -%>
+		</li>
+	<% end %>
+</ul>
+<% end %>
+<p><% link_to "Add new Book", {:action => 'new' } %></p>

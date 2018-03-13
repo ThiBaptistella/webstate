@@ -1,0 +1,25 @@
+<h1>create new user</h1>
+<%= form_tag :action => 'create' do %>
+	<p><label for ="user_name">Username</label>:
+	<%= text_field 'user', 'UserName' %></p>
+	
+	<p><label for ="user_password">Password</label>:
+	<%= text_field 'user', 'UserPassword' %></p>
+
+	<p><label for ="user_email">Email</label>:
+	<%= text_field 'user', 'UserEmail' %></p>
+
+	<p><label for ="user_first_name">Name</label>:
+	<%= text_field 'user', 'UserFirstName' %></p>
+
+	<p><label for ="user_surname">Surname</label>:
+	<%= text_field 'user', 'UserSurname' %></p>
+
+	<p><label for ="user_phone">Phone</label>:
+	<%= text_field 'user', 'UserPhone' %></p>
+
+	<p><label for ="user_admin">Admin</label>:
+	<%= text_field 'user', 'UserAdmin' %></p>
+
+	<%= submit_tag "create" %>
+<% end -%>
